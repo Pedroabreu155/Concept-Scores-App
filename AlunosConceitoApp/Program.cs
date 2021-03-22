@@ -36,6 +36,9 @@ namespace AlunosConceitoApp
 
                         students[studentIndex] = student;
                         studentIndex++;
+                        
+                        Console.WriteLine();
+                        Console.WriteLine("Aluno cadastrado com sucesso!");
 
                         break;
 
@@ -63,7 +66,7 @@ namespace AlunosConceitoApp
         private static string catchUserOption()
         {
             //Setting options
-
+            Console.WriteLine();
             Console.WriteLine("Escolha a opção desejada:");
             Console.WriteLine("1 - Cadastrar novo aluno");
             Console.WriteLine("2 - Listar alunos");
