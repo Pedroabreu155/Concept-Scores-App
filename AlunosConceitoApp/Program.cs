@@ -6,30 +6,22 @@ namespace AlunosConceitoApp
     {
         static void Main(string[] args)
         {
-            //Setting options
-
-            Console.WriteLine("Escolha a opção desejada:");
-            Console.WriteLine("1 - Cadastrar novo aluno");
-            Console.WriteLine("2 - Listar alunos");
-            Console.WriteLine("3 - Calcular média geral dos alunos");
-            Console.WriteLine("(X) Sair");
-            Console.WriteLine();
 
 
-            //reading the chosen option
+            string chosenOption = catchUserOption();
 
-            string chosenOption = Console.ReadLine();
-
-            while(chosenOption.ToUpper() != "X"){
-                switch(chosenOption){
+            while (chosenOption.ToUpper() != "X")
+            {
+                switch (chosenOption)
+                {
                     case "1":
-                        //To do?: add alumn
+                        //To do?: add student
                         break;
 
                     case "2":
-                        //To do?: list alumns
+                        //To do?: list students
                         break;
-                        
+
                     case "3":
                         //To do?: calculate class average
                         break;
@@ -37,7 +29,33 @@ namespace AlunosConceitoApp
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
+
+
+
+
+                //reading the chosen option
+
+                chosenOption = catchUserOption();
             }
+        }
+
+        private static string catchUserOption()
+        {
+            //Setting options
+
+            Console.WriteLine("Escolha a opção desejada:");
+            Console.WriteLine("1 - Cadastrar novo aluno");
+            Console.WriteLine("2 - Listar alunos");
+            Console.WriteLine("3 - Calcular média geral dos alunos");
+            Console.WriteLine("X - Sair");
+            Console.WriteLine();
+
+
+            //reading the chosen option
+
+            string chosenOption = Console.ReadLine();
+            Console.WriteLine();
+            return chosenOption;
         }
     }
 }

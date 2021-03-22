@@ -1,0 +1,16 @@
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.exe
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.deps.json
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.runtimeconfig.json
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.runtimeconfig.dev.json
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.dll
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\ref\AlunosConceitoApp.dll
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\bin\Debug\net5.0\AlunosConceitoApp.pdb
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.csprojAssemblyReference.cache
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.AssemblyInfoInputs.cache
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.AssemblyInfo.cs
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.dll
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\ref\AlunosConceitoApp.dll
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.pdb
+C:\Users\pedro\Projetos\DotNet\ProjetoConceitoAlunos-c#\AlunosConceitoApp\obj\Debug\net5.0\AlunosConceitoApp.genruntimeconfig.cache
