@@ -6,7 +6,9 @@ namespace AlunosConceitoApp
     {
         static void Main(string[] args)
         {
+            Student[] students = new Student[5];
 
+           int studentIndex = 0;
 
             string chosenOption = catchUserOption();
 
@@ -15,7 +17,26 @@ namespace AlunosConceitoApp
                 switch (chosenOption)
                 {
                     case "1":
-                        //To do?: add student
+                        Console.WriteLine("Informe o nome do aluno:");
+                        Student student = new Student();
+                        student.Name = Console.ReadLine();
+
+                        Console.WriteLine("Informe a nota do aluno:");
+
+                        if (decimal.TryParse(Console.ReadLine(), out decimal grade))
+                        {
+
+                            student.Score = grade;
+                        }
+                        else
+                        {
+                            throw new ArgumentException("Valor da nota precisa ser decimal!");
+                        }
+
+
+                        students[studentIndex] = student;
+                        studentIndex++;
+
                         break;
 
                     case "2":

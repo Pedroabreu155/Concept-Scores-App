@@ -2,6 +2,8 @@ namespace AlunosConceitoApp
 {
     public struct Student
     {
-        public int MyProperty { get; set; }
+        public string Name { get; set; }
+        
+        public decimal Score { get; set; }
     }
 }
