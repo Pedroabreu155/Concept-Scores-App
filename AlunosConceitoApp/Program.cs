@@ -44,7 +44,7 @@ namespace AlunosConceitoApp
 
                     case "2"://To do?: list students
                         foreach(var s in students){
-                            if(!s.Name.Equals("")){
+                            if(!string.IsNullOrEmpty(s.Name)){
                                 Console.WriteLine($"Aluno: {s.Name} - Nota: {s.Score}");
                             }
                             
