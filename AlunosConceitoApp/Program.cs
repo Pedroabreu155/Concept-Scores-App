@@ -16,7 +16,7 @@ namespace AlunosConceitoApp
             {
                 switch (chosenOption)
                 {
-                    case "1":
+                    case "1"://To do?: list students
                         Console.WriteLine("Informe o nome do aluno:");
                         Student student = new Student();
                         student.Name = Console.ReadLine();
@@ -42,8 +42,10 @@ namespace AlunosConceitoApp
 
                         break;
 
-                    case "2":
-                        //To do?: list students
+                    case "2"://To do?: list students
+                        foreach(var s in students){
+                            Console.WriteLine($"Aluno: {s.Name} - Nota: {s.Score}")
+                        }
                         break;
 
                     case "3":
