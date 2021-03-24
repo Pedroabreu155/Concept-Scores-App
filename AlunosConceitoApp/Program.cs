@@ -8,7 +8,7 @@ namespace AlunosConceitoApp
         {
             Student[] students = new Student[5];
 
-           int studentIndex = 0;
+            int studentIndex = 0;
 
             string chosenOption = catchUserOption();
 
@@ -36,39 +36,63 @@ namespace AlunosConceitoApp
 
                         students[studentIndex] = student;
                         studentIndex++;
-                        
+
                         Console.WriteLine();
                         Console.WriteLine("Aluno cadastrado com sucesso!");
 
                         break;
 
                     case "2"://To do?: list students
-                        foreach(var s in students){
-                            if(!string.IsNullOrEmpty(s.Name)){
+                        foreach (var s in students)
+                        {
+                            if (!string.IsNullOrEmpty(s.Name))
+                            {
                                 Console.WriteLine($"Aluno: {s.Name} - Nota: {s.Score}");
                             }
-                            
+
                         }
                         break;
 
                     case "3"://To do?: calculate class average
-                        
+
                         decimal totalScore = 0;
                         var studentsNumber = 0;
-                        for(int i = 0; i < students.Length; i++){
-                            if(!string.IsNullOrEmpty(students[i].Name)){
+                        for (int i = 0; i < students.Length; i++)
+                        {
+                            if (!string.IsNullOrEmpty(students[i].Name))
+                            {
                                 totalScore = totalScore + students[i].Score;
                                 studentsNumber++;
                             }
                         }
 
                         var totalAverage = totalScore / studentsNumber;
-                        
-                        Console.WriteLine($"Média Geral: {totalAverage}");
+
+                        Conceito conceptAll;
+                        if (totalAverage < 2)
+                        {
+                            conceptAll = Conceito.F;
+
+                        } else if(totalAverage < 4){
+                            conceptAll = Conceito.D;
+
+                        } else if(totalAverage < 6){
+                            conceptAll = Conceito.C;
+                            
+                        }else if(totalAverage < 8){
+                            conceptAll = Conceito.B;
+                            
+                        } else{
+                            conceptAll = Conceito.A;
+                        }
 
 
+                        Console.WriteLine($"Média Geral: {totalAverage} - Conceito: {conceptAll}");
+
+
+                        //To do?: calculate class average
                         break;
-                        
+
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
