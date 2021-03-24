@@ -51,10 +51,24 @@ namespace AlunosConceitoApp
                         }
                         break;
 
-                    case "3":
-                        //To do?: calculate class average
-                        break;
+                    case "3"://To do?: calculate class average
+                        
+                        decimal totalScore = 0;
+                        var studentsNumber = 0;
+                        for(int i = 0; i < students.Length; i++){
+                            if(!string.IsNullOrEmpty(students[i].Name)){
+                                totalScore = totalScore + students[i].Score;
+                                studentsNumber++;
+                            }
+                        }
 
+                        var totalAverage = totalScore / studentsNumber;
+                        
+                        Console.WriteLine($"Média Geral: {totalAverage}");
+
+
+                        break;
+                        
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
